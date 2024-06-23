@@ -1,8 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import Link from "next/link";
+import Card from "../Card/card";
+import { getTrendingMovies } from "../../utils/movieSetting";
 
-export default function HeroSection() {
+export default async function HeroSection() {
+  const movies = await getTrendingMovies();
   return (
     <>
       <div className="absolute">
@@ -32,13 +35,24 @@ export default function HeroSection() {
               miss out on the latest releases. Your next movie night starts
               here!
             </p>
-            <div className="mt-10 flex items-center justify-between gap-x-6">
+            <div className="mt-10 flex items-center gap-x-6">
               <Link
                 href={"/movies"}
                 className="rounded-md px-3 py-2 font-medium text-lg text-black bg-white hover:bg-maroon hover:text-white"
               >
                 Start Watching Now
               </Link>
+              <Link
+                href={"/list-film"}
+                className="rounded-md px-3 py-2 font-medium text-lg text-black bg-white hover:bg-maroon hover:text-white"
+              >
+                List Film
+              </Link>
+            </div>
+            <div>
+              {movies.map((movie: any) => {
+                return <Card key={movie} />;
+              })}
             </div>
           </div>
         </div>
