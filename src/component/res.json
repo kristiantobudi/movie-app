@@ -1,407 +1,425 @@
 {
-    "page": 1,
-    "results": [
-      {
-        "adult": false,
-        "backdrop_path": "/xg27NrXi7VXCGUr7MG75UqLl6Vg.jpg",
-        "genre_ids": [
-          16,
-          10751,
-          18,
-          12,
-          35
-        ],
-        "id": 1022789,
-        "original_language": "en",
-        "original_title": "Inside Out 2",
-        "overview": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone.",
-        "popularity": 7950.255,
-        "poster_path": "/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
-        "release_date": "2024-06-11",
-        "title": "Inside Out 2",
-        "video": false,
-        "vote_average": 7.862,
-        "vote_count": 512
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/fqv8v6AycXKsivp1T5yKtLbGXce.jpg",
-        "genre_ids": [
-          878,
-          12,
-          28
-        ],
-        "id": 653346,
-        "original_language": "en",
-        "original_title": "Kingdom of the Planet of the Apes",
-        "overview": "Several generations in the future following Caesar's reign, apes are now the dominant species and live harmoniously while humans have been reduced to living in the shadows. As a new tyrannical ape leader builds his empire, one young ape undertakes a harrowing journey that will cause him to question all that he has known about the past and to make choices that will define a future for apes and humans alike.",
-        "popularity": 3153.75,
-        "poster_path": "/gKkl37BQuKTanygYQG1pyYgLVgf.jpg",
-        "release_date": "2024-05-08",
-        "title": "Kingdom of the Planet of the Apes",
-        "video": false,
-        "vote_average": 6.875,
-        "vote_count": 1169
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/j29ekbcLpBvxnGk6LjdTc2EI5SA.jpg",
-        "genre_ids": [
-          16,
-          10751,
-          12,
-          18,
-          35
-        ],
-        "id": 150540,
-        "original_language": "en",
-        "original_title": "Inside Out",
-        "overview": "From an adventurous balloon ride above the clouds to a monster-filled metropolis, Academy Award®-winning director Pete Docter (“Monsters, Inc.,” “Up”) has taken audiences to unique and imaginative places. In Disney and Pixar’s original movie “ Inside Out,” he will take us to the most extraordinary location of all—inside the mind.",
-        "popularity": 2389.625,
-        "poster_path": "/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",
-        "release_date": "2015-06-17",
-        "title": "Inside Out",
-        "video": false,
-        "vote_average": 7.917,
-        "vote_count": 20750
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/iTWrsOVsUqcwYSxrpINNs3hG2nC.jpg",
-        "genre_ids": [
-          53,
-          27,
-          28,
-          9648
-        ],
-        "id": 1001311,
-        "original_language": "fr",
-        "original_title": "Sous la Seine",
-        "overview": "In the Summer of 2024, Paris is hosting the World Triathlon Championships on the Seine for the first time. Sophia, a brilliant scientist, learns from Mika, a young environmental activist, that a large shark is swimming deep in the river. To avoid a bloodbath at the heart of the city, they have no choice but to join forces with Adil, the Seine river police commander.",
-        "popularity": 1954.395,
-        "poster_path": "/qZPLK5ktRKa3CL4sKRZtj8UlPYc.jpg",
-        "release_date": "2024-06-05",
-        "title": "Under Paris",
-        "video": false,
-        "vote_average": 5.988,
-        "vote_count": 647
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/gRApXuxWmO2forYTuTmcz5RaNUV.jpg",
-        "genre_ids": [
-          28,
-          80,
-          53,
-          35
-        ],
-        "id": 573435,
-        "original_language": "en",
-        "original_title": "Bad Boys: Ride or Die",
-        "overview": "After their late former Captain is framed, Lowrey and Burnett try to clear his name, only to end up on the run themselves.",
-        "popularity": 1983.126,
-        "poster_path": "/nP6RliHjxsz4irTKsxe8FRhKZYl.jpg",
-        "release_date": "2024-06-05",
-        "title": "Bad Boys: Ride or Die",
-        "video": false,
-        "vote_average": 7.148,
-        "vote_count": 374
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/lLh39Th5plbrQgbQ4zyIULsd0Pp.jpg",
-        "genre_ids": [
-          878,
-          28,
-          12
-        ],
-        "id": 823464,
-        "original_language": "en",
-        "original_title": "Godzilla x Kong: The New Empire",
-        "overview": "Following their explosive showdown, Godzilla and Kong must reunite against a colossal undiscovered threat hidden within our world, challenging their very existence – and our own.",
-        "popularity": 1689.825,
-        "poster_path": "/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg",
-        "release_date": "2024-03-27",
-        "title": "Godzilla x Kong: The New Empire",
-        "video": false,
-        "vote_average": 7.221,
-        "vote_count": 2855
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/z121dSTR7PY9KxKuvwiIFSYW8cf.jpg",
-        "genre_ids": [
-          10752,
-          28,
-          18
-        ],
-        "id": 929590,
-        "original_language": "en",
-        "original_title": "Civil War",
-        "overview": "In the near future, a group of war journalists attempt to survive while reporting the truth as the United States stands on the brink of civil war.",
-        "popularity": 1442.732,
-        "poster_path": "/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
-        "release_date": "2024-04-10",
-        "title": "Civil War",
-        "video": false,
-        "vote_average": 7.014,
-        "vote_count": 1647
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/vblTCXOWUQGSc837vgbhDRi4HSc.jpg",
-        "genre_ids": [
-          28,
-          80,
-          35,
-          53
-        ],
-        "id": 955555,
-        "original_language": "ko",
-        "original_title": "범죄도시3",
-        "overview": "Detective Ma Seok-do changes his affiliation from the Geumcheon Police Station to the Metropolitan Investigation Team, in order to eradicate Japanese gangsters who enter Korea to commit heinous crimes.",
-        "popularity": 1120.764,
-        "poster_path": "/lW6IHrtaATxDKYVYoQGU5sh0OVm.jpg",
-        "release_date": "2023-05-31",
-        "title": "The Roundup: No Way Out",
-        "video": false,
-        "vote_average": 7.231,
-        "vote_count": 299
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/g5Ha2DhXIuxsUl4gaDnbw3jOAlo.jpg",
-        "genre_ids": [
-          28
-        ],
-        "id": 1115623,
-        "original_language": "en",
-        "original_title": "The Last Kumite",
-        "overview": "When Karate champion Michael Rivers wins the last tournament of his career, shady businessman Ron Hall offers him the opportunity to fight in an illegal Kumite in Bulgaria against the world’s best martial artists.  When Michael declines, Hall has his daughter kidnapped and, in order to rescue her, Rivers is left with no choice but to compete in the deadly tournament. Arriving in Bulgaria, he finds out that he is not the only fighter whose loved one was taken. Rivers enlists the help of trainers Master Loren, and Julie Jackson but will it be enough for him to win the tournament and save his daughter’s life?",
-        "popularity": 1037.932,
-        "poster_path": "/zDkaJgsPoSqa2cMe2hW2HAfyWwO.jpg",
-        "release_date": "2024-05-09",
-        "title": "The Last Kumite",
-        "video": false,
-        "vote_average": 7.5,
-        "vote_count": 35
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/3TNSoa0UHGEzEz5ndXGjJVKo8RJ.jpg",
-        "genre_ids": [
-          878,
-          28
-        ],
-        "id": 614933,
-        "original_language": "en",
-        "original_title": "Atlas",
-        "overview": "A brilliant counterterrorism analyst with a deep distrust of AI discovers it might be her only hope when a mission to capture a renegade robot goes awry.",
-        "popularity": 926.087,
-        "poster_path": "/bcM2Tl5HlsvPBnL8DKP9Ie6vU4r.jpg",
-        "release_date": "2024-05-23",
-        "title": "Atlas",
-        "video": false,
-        "vote_average": 6.818,
-        "vote_count": 845
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/oZDRuGHhe5uY8wBqFJcJZT9kdvJ.jpg",
-        "genre_ids": [
-          27,
-          9648,
-          53
-        ],
-        "id": 1086747,
-        "original_language": "en",
-        "original_title": "The Watchers",
-        "overview": "A young artist gets stranded in an extensive, immaculate forest in western Ireland, where, after finding shelter, she becomes trapped alongside three strangers, stalked by mysterious creatures each night.",
-        "popularity": 960.771,
-        "poster_path": "/vZVEUPychdvZLrTNwWErr9xZFmu.jpg",
-        "release_date": "2024-06-06",
-        "title": "The Watchers",
-        "video": false,
-        "vote_average": 6.2,
-        "vote_count": 163
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/nxxCPRGTzxUH8SFMrIsvMmdxHti.jpg",
-        "genre_ids": [
-          35,
-          14,
-          10751
-        ],
-        "id": 639720,
-        "original_language": "en",
-        "original_title": "IF",
-        "overview": "A young girl who goes through a difficult experience begins to see everyone's imaginary friends who have been left behind as their real-life friends have grown up.",
-        "popularity": 1311.852,
-        "poster_path": "/xbKFv4KF3sVYuWKllLlwWDmuZP7.jpg",
-        "release_date": "2024-05-08",
-        "title": "IF",
-        "video": false,
-        "vote_average": 7.474,
-        "vote_count": 270
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/kZbTOcTrEGyroQMWQSGIRlNSkwP.jpg",
-        "genre_ids": [
-          878,
-          28,
-          14,
-          12
-        ],
-        "id": 626412,
-        "original_language": "ko",
-        "original_title": "외계+인 2부",
-        "overview": "Ean has a critical mission to return to the future to save everyone. However, she becomes trapped in the distant past while trying to prevent the escape of alien prisoners who are locked up in the bodies of humans. Meanwhile, Muruk, who helps Ean escape various predicaments, is unnerved when he begins sensing the presence of a strange being in his body. Traveling through the centuries, they are trying to prevent the explosion of the haava.",
-        "popularity": 881.784,
-        "poster_path": "/4RClncz0GTKPZzSAcAalHCw0h3g.jpg",
-        "release_date": "2024-01-10",
-        "title": "Alienoid: Return to the Future",
-        "video": false,
-        "vote_average": 6.8,
-        "vote_count": 274
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/kYgQzzjNis5jJalYtIHgrom0gOx.jpg",
-        "genre_ids": [
-          16,
-          28,
-          10751,
-          35,
-          14
-        ],
-        "id": 1011985,
-        "original_language": "en",
-        "original_title": "Kung Fu Panda 4",
-        "overview": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past.",
-        "popularity": 876.512,
-        "poster_path": "/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg",
-        "release_date": "2024-03-02",
-        "title": "Kung Fu Panda 4",
-        "video": false,
-        "vote_average": 7.125,
-        "vote_count": 2070
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/oavbmL3iddJUmC8nQjL6bLHwAP4.jpg",
-        "genre_ids": [
-          27
-        ],
-        "id": 719221,
-        "original_language": "en",
-        "original_title": "Tarot",
-        "overview": "When a group of friends recklessly violate the sacred rule of Tarot readings, they unknowingly unleash an unspeakable evil trapped within the cursed cards. One by one, they come face to face with fate and end up in a race against death.",
-        "popularity": 812.565,
-        "poster_path": "/gAEUXC37vl1SnM7PXsHTF23I2vq.jpg",
-        "release_date": "2024-05-01",
-        "title": "Tarot",
-        "video": false,
-        "vote_average": 6.588,
-        "vote_count": 548
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/H5HjE7Xb9N09rbWn1zBfxgI8uz.jpg",
-        "genre_ids": [
-          28,
-          35
-        ],
-        "id": 746036,
-        "original_language": "en",
-        "original_title": "The Fall Guy",
-        "overview": "Fresh off an almost career-ending accident, stuntman Colt Seavers has to track down a missing movie star, solve a conspiracy and try to win back the love of his life while still doing his day job.",
-        "popularity": 814.415,
-        "poster_path": "/aBkqu7EddWK7qmY4grL4I6edx2h.jpg",
-        "release_date": "2024-04-24",
-        "title": "The Fall Guy",
-        "video": false,
-        "vote_average": 7.279,
-        "vote_count": 1320
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/nb3xI8XI3w4pMVZ38VijbsyBqP4.jpg",
-        "genre_ids": [
-          18,
-          36
-        ],
-        "id": 872585,
-        "original_language": "en",
-        "original_title": "Oppenheimer",
-        "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
-        "popularity": 510.2,
-        "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
-        "release_date": "2023-07-19",
-        "title": "Oppenheimer",
-        "video": false,
-        "vote_average": 8.094,
-        "vote_count": 8372
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/eAIHqfS3kXm7kZl4j7ZBfdegyEz.jpg",
-        "genre_ids": [
-          53,
-          28,
-          80
-        ],
-        "id": 38700,
-        "original_language": "en",
-        "original_title": "Bad Boys for Life",
-        "overview": "Marcus and Mike are forced to confront new threats, career changes, and midlife crises as they join the newly created elite team AMMO of the Miami police department to take down the ruthless Armando Armas, the vicious leader of a Miami drug cartel.",
-        "popularity": 629.608,
-        "poster_path": "/y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg",
-        "release_date": "2020-01-15",
-        "title": "Bad Boys for Life",
-        "video": false,
-        "vote_average": 7.13,
-        "vote_count": 7941
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/11G6N5zW0KykVS0EcNKeXHUmQj8.jpg",
-        "genre_ids": [
-          10752
-        ],
-        "id": 1136318,
-        "original_language": "en",
-        "original_title": "Battle Over Britain",
-        "overview": "A young pilot, fresh out of training, is called to join a Flight while they wait for the call to scramble. Throughout a single day, he witnesses the skies of southern England filled with deadly dog fights, and after every exhausting battle the men return to their dispersal hut, only to find another of their number missing. Unwilling to surrender, the pilot and his comrades unite to take to the skies once more, determined to defend not only the airfield, but their entire country.",
-        "popularity": 622.989,
-        "poster_path": "/8htJ7keZTwa08aC9OKyiqaq1cNJ.jpg",
-        "release_date": "2023-12-01",
-        "title": "Battle Over Britain",
-        "video": false,
-        "vote_average": 7.308,
-        "vote_count": 52
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg",
-        "genre_ids": [
-          878,
-          12
-        ],
-        "id": 693134,
-        "original_language": "en",
-        "original_title": "Dune: Part Two",
-        "overview": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
-        "popularity": 675.524,
-        "poster_path": "/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
-        "release_date": "2024-02-27",
-        "title": "Dune: Part Two",
-        "video": false,
-        "vote_average": 8.171,
-        "vote_count": 4603
-      }
-    ],
-    "total_pages": 44773,
-    "total_results": 895443
-  }
+  "page": 1,
+  "results": [
+    {
+      "backdrop_path": "/aATi2PtaOQCVAquCym6OU0Z4FjY.jpg",
+      "id": 704673,
+      "original_title": "Trigger Warning",
+      "overview": "A skilled Special Forces commando takes ownership of her father's bar after his abrupt death, and soon finds herself at odds with a violent gang running rampant in her hometown.",
+      "poster_path": "/6XJM3C47iGOK9nFU6yLFCSf4U5c.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "Trigger Warning",
+      "original_language": "en",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "popularity": 133.298,
+      "release_date": "2024-06-21",
+      "video": false,
+      "vote_average": 5.612,
+      "vote_count": 76
+    },
+    {
+      "backdrop_path": "/xg27NrXi7VXCGUr7MG75UqLl6Vg.jpg",
+      "id": 1022789,
+      "original_title": "Inside Out 2",
+      "overview": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone.",
+      "poster_path": "/oxxqiyWrnM0XPnBtVe9TgYWnPxT.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "Inside Out 2",
+      "original_language": "en",
+      "genre_ids": [
+        16,
+        10751,
+        18,
+        12,
+        35
+      ],
+      "popularity": 8282.191,
+      "release_date": "2024-06-11",
+      "video": false,
+      "vote_average": 7.791,
+      "vote_count": 645
+    },
+    {
+      "backdrop_path": "/nxxCPRGTzxUH8SFMrIsvMmdxHti.jpg",
+      "id": 639720,
+      "original_title": "IF",
+      "overview": "A young girl who goes through a difficult experience begins to see everyone's imaginary friends who have been left behind as their real-life friends have grown up.",
+      "poster_path": "/xbKFv4KF3sVYuWKllLlwWDmuZP7.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "IF",
+      "original_language": "en",
+      "genre_ids": [
+        35,
+        14,
+        10751
+      ],
+      "popularity": 1836.593,
+      "release_date": "2024-05-08",
+      "video": false,
+      "vote_average": 7.485,
+      "vote_count": 335
+    },
+    {
+      "backdrop_path": "/v388vWM3hdf0eIhkoQJFBo9nltj.jpg",
+      "id": 923667,
+      "original_title": "九龍城寨．圍城",
+      "overview": "Set in the 1980s, troubled youth Chan Lok-kwun accidentally enters the Walled City, discovers the order amidst its chaos, and learns important life lessons along the way. In the Walled City, he becomes close friends with Shin, Twelfth Master and AV. Under the leadership of Cyclone, they resist against the invasion of villain Mr. Big in a series of fierce battles. Together, they vow to protect the safe haven that is Kowloon Walled City.",
+      "poster_path": "/y3Z7Nj6K4R2DUEJ6ijyd9XoLt2u.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "Twilight of the Warriors: Walled In",
+      "original_language": "cn",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "popularity": 87.671,
+      "release_date": "2024-04-23",
+      "video": false,
+      "vote_average": 7.431,
+      "vote_count": 29
+    },
+    {
+      "backdrop_path": "/g83O8ykeRhsMoHA0LjtOOi8m6ZW.jpg",
+      "id": 1143019,
+      "original_title": "Les Infaillibles",
+      "overview": "When a gang of robbers provokes chaos in Paris and humiliates the police, the Minister of the Interior wants new blood at the helm of the investigation: Alia is from Marseille, fiery-tempered and unmanageable, Hugo is Parisian, valedictorian and meticulous. In short, they have every reason to hate each other. A forced alliance, for better or for worse, or maybe blossoming into something else?",
+      "poster_path": "/7PoIAvL3Io5v0HyBliXfXZruQTi.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "The Infallibles",
+      "original_language": "fr",
+      "genre_ids": [
+        35,
+        28
+      ],
+      "popularity": 75.523,
+      "release_date": "2024-06-20",
+      "video": false,
+      "vote_average": 4.273,
+      "vote_count": 11
+    },
+    {
+      "backdrop_path": "/1r1dWa9yf1LeSLfkOfkSqxmWHdK.jpg",
+      "id": 967847,
+      "original_title": "Ghostbusters: Frozen Empire",
+      "overview": "When the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second Ice Age.",
+      "poster_path": "/e1J2oNzSBdou01sUvriVuoYp0pJ.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "Ghostbusters: Frozen Empire",
+      "original_language": "en",
+      "genre_ids": [
+        14,
+        12,
+        35
+      ],
+      "popularity": 429.071,
+      "release_date": "2024-03-20",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 1011
+    },
+    {
+      "backdrop_path": "/j29ekbcLpBvxnGk6LjdTc2EI5SA.jpg",
+      "id": 150540,
+      "original_title": "Inside Out",
+      "overview": "From an adventurous balloon ride above the clouds to a monster-filled metropolis, Academy Award®-winning director Pete Docter (“Monsters, Inc.,” “Up”) has taken audiences to unique and imaginative places. In Disney and Pixar’s original movie “ Inside Out,” he will take us to the most extraordinary location of all—inside the mind.",
+      "poster_path": "/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "Inside Out",
+      "original_language": "en",
+      "genre_ids": [
+        16,
+        10751,
+        12,
+        18,
+        35
+      ],
+      "popularity": 2490.199,
+      "release_date": "2015-06-17",
+      "video": false,
+      "vote_average": 7.9,
+      "vote_count": 20794
+    },
+    {
+      "backdrop_path": "/w2zsNG7WKBMH35QqcFYILEAdYDU.jpg",
+      "id": 1026999,
+      "original_title": "Akademia Pana Kleksa",
+      "overview": "A seemingly ordinary girl finds her way into the eponymous Academy to explore the world of fairy tales, imagination and creativity. With the help of a crazy, talented teacher, she develops her unique abilities and also stumbles upon a clue that will help her unravel the biggest secret of the family...",
+      "poster_path": "/ymbECZscR8BTkdvXziSinMIckAz.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "Kleks Academy",
+      "original_language": "pl",
+      "genre_ids": [
+        14,
+        12,
+        10751
+      ],
+      "popularity": 109.57,
+      "release_date": "2024-01-05",
+      "video": false,
+      "vote_average": 5.833,
+      "vote_count": 33
+    },
+    {
+      "backdrop_path": "/lLh39Th5plbrQgbQ4zyIULsd0Pp.jpg",
+      "id": 823464,
+      "original_title": "Godzilla x Kong: The New Empire",
+      "overview": "Following their explosive showdown, Godzilla and Kong must reunite against a colossal undiscovered threat hidden within our world, challenging their very existence – and our own.",
+      "poster_path": "/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "Godzilla x Kong: The New Empire",
+      "original_language": "en",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "popularity": 1852.948,
+      "release_date": "2024-03-27",
+      "video": false,
+      "vote_average": 7.224,
+      "vote_count": 2870
+    },
+    {
+      "backdrop_path": "/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg",
+      "id": 693134,
+      "original_title": "Dune: Part Two",
+      "overview": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
+      "poster_path": "/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "Dune: Part Two",
+      "original_language": "en",
+      "genre_ids": [
+        878,
+        12
+      ],
+      "popularity": 780.248,
+      "release_date": "2024-02-27",
+      "video": false,
+      "vote_average": 8.172,
+      "vote_count": 4631
+    },
+    {
+      "backdrop_path": "/gRApXuxWmO2forYTuTmcz5RaNUV.jpg",
+      "id": 573435,
+      "original_title": "Bad Boys: Ride or Die",
+      "overview": "After their late former Captain is framed, Lowrey and Burnett try to clear his name, only to end up on the run themselves.",
+      "poster_path": "/nP6RliHjxsz4irTKsxe8FRhKZYl.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "Bad Boys: Ride or Die",
+      "original_language": "en",
+      "genre_ids": [
+        28,
+        80,
+        53,
+        35
+      ],
+      "popularity": 2105.821,
+      "release_date": "2024-06-05",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 391
+    },
+    {
+      "backdrop_path": "/dYGJ9cI3pUjCUITfxxsO5kEGKTF.jpg",
+      "id": 1279433,
+      "original_title": "Spadek",
+      "overview": "When their rich uncle passes, his mansion of intricate puzzles becomes the backdrop for his estranged family's quest to secure a portion of his wealth.",
+      "poster_path": "/A4UklDW0DYytzK5aydQIM3vw4dL.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "Inheritance",
+      "original_language": "pl",
+      "genre_ids": [
+        35,
+        9648
+      ],
+      "popularity": 102.379,
+      "release_date": "2024-06-19",
+      "video": false,
+      "vote_average": 5.887,
+      "vote_count": 31
+    },
+    {
+      "backdrop_path": "/cqf3o3UrL7icGN0cTd1w7Fx0C38.jpg",
+      "id": 1008409,
+      "original_title": "The Bikeriders",
+      "overview": "After a chance encounter, headstrong Kathy is drawn to Benny, member of Midwestern motorcycle club the Vandals. As the club transforms into a dangerous underworld of violence, Benny must choose between Kathy and his loyalty to the club.",
+      "poster_path": "/9ocVEG3GMOrMGLWINf6RHS4rnJM.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "The Bikeriders",
+      "original_language": "en",
+      "genre_ids": [
+        80,
+        18
+      ],
+      "popularity": 173.739,
+      "release_date": "2024-06-19",
+      "video": false,
+      "vote_average": 7.534,
+      "vote_count": 59
+    },
+    {
+      "backdrop_path": "/nv6F6tz7r61DUhE7zgHwLJFcTYp.jpg",
+      "id": 974635,
+      "original_title": "Hit Man",
+      "overview": "A mild-mannered professor moonlighting as a fake hit man in police stings ignites a chain reaction of trouble when he falls for a potential client.",
+      "poster_path": "/1126gjlBf4hTm9Sgf0ox3LGVEBt.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "Hit Man",
+      "original_language": "en",
+      "genre_ids": [
+        10749,
+        35,
+        80
+      ],
+      "popularity": 518.23,
+      "release_date": "2024-05-16",
+      "video": false,
+      "vote_average": 7.059,
+      "vote_count": 370
+    },
+    {
+      "backdrop_path": "/ao7qIklCUpy2xyNOPci2TWIe5ne.jpg",
+      "id": 1215918,
+      "original_title": "Blackwater Lane",
+      "overview": "Late one night a woman drives by a stranded motorist who is later revealed to have been murdered. After a series of terrifying events the woman believes she is the killer's next victim.",
+      "poster_path": "/5ut7D7v9ZKlmlEiOZpdLKfZ0P9g.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "Blackwater Lane",
+      "original_language": "en",
+      "genre_ids": [
+        53,
+        27
+      ],
+      "popularity": 69.023,
+      "release_date": "2024-06-21",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1
+    },
+    {
+      "backdrop_path": "/raph7qjAGTMXaIjVxt6ZDSXRzUr.jpg",
+      "id": 786892,
+      "original_title": "Furiosa: A Mad Max Saga",
+      "overview": "As the world fell, young Furiosa is snatched from the Green Place of Many Mothers and falls into the hands of a great Biker Horde led by the Warlord Dementus. Sweeping through the Wasteland they come across the Citadel presided over by The Immortan Joe. While the two Tyrants war for dominance, Furiosa must survive many trials as she puts together the means to find her way home.",
+      "poster_path": "/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "Furiosa: A Mad Max Saga",
+      "original_language": "en",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "popularity": 658.542,
+      "release_date": "2024-05-22",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 986
+    },
+    {
+      "backdrop_path": "/H5HjE7Xb9N09rbWn1zBfxgI8uz.jpg",
+      "id": 746036,
+      "original_title": "The Fall Guy",
+      "overview": "Fresh off an almost career-ending accident, stuntman Colt Seavers has to track down a missing movie star, solve a conspiracy and try to win back the love of his life while still doing his day job.",
+      "poster_path": "/aBkqu7EddWK7qmY4grL4I6edx2h.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "The Fall Guy",
+      "original_language": "en",
+      "genre_ids": [
+        28,
+        35
+      ],
+      "popularity": 862.492,
+      "release_date": "2024-04-24",
+      "video": false,
+      "vote_average": 7.293,
+      "vote_count": 1357
+    },
+    {
+      "backdrop_path": "/lA6KdSkCTxwzvqzPqxch997RabQ.jpg",
+      "id": 560016,
+      "original_title": "Monkey Man",
+      "overview": "Kid is an anonymous young man who ekes out a meager living in an underground fight club where, night after night, wearing a gorilla mask, he is beaten bloody by more popular fighters for cash. After years of suppressed rage, Kid discovers a way to infiltrate the enclave of the city’s sinister elite. As his childhood trauma boils over, his mysteriously scarred hands unleash an explosive campaign of retribution to settle the score with the men who took everything from him.",
+      "poster_path": "/4lhR4L2vzzjl68P1zJyCH755Oz4.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "Monkey Man",
+      "original_language": "en",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "popularity": 163.486,
+      "release_date": "2024-04-03",
+      "video": false,
+      "vote_average": 7.086,
+      "vote_count": 518
+    },
+    {
+      "backdrop_path": "/s5znBQmprDJJ553IMQfwEVlfroH.jpg",
+      "id": 799583,
+      "original_title": "The Ministry of Ungentlemanly Warfare",
+      "overview": "During World War II, the British Army assigns a group of competent soldiers to carry out a mission against the Nazi forces behind enemy lines... A true story about a secret British WWII organization – the Special Operations Executive. Founded by Winston Churchill, their irregular warfare against the Germans helped to change the course of the war, and gave birth to modern black operations.",
+      "poster_path": "/8aF0iAKH9MJMYAZdi0Slg77RYa2.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "The Ministry of Ungentlemanly Warfare",
+      "original_language": "en",
+      "genre_ids": [
+        28,
+        10752,
+        18
+      ],
+      "popularity": 172.053,
+      "release_date": "2024-04-18",
+      "video": false,
+      "vote_average": 7.257,
+      "vote_count": 341
+    },
+    {
+      "backdrop_path": "/z121dSTR7PY9KxKuvwiIFSYW8cf.jpg",
+      "id": 929590,
+      "original_title": "Civil War",
+      "overview": "In the near future, a group of war journalists attempt to survive while reporting the truth as the United States stands on the brink of civil war.",
+      "poster_path": "/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "title": "Civil War",
+      "original_language": "en",
+      "genre_ids": [
+        10752,
+        28,
+        18
+      ],
+      "popularity": 1524.677,
+      "release_date": "2024-04-10",
+      "video": false,
+      "vote_average": 7.015,
+      "vote_count": 1674
+    }
+  ],
+  "total_pages": 1000,
+  "total_results": 20000
+}

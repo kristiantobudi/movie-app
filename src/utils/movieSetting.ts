@@ -4,13 +4,13 @@ const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const getMovies = async (query: any) => {
     const res = await fetch(`${BASE_URL}/search/movie?api_key=${API_KEY}&query=${query}`);
     const data = await res.json();
-    return data
+    return data.results;
 }
 
 export const getTrendingMovies = async () => {
     const res = await fetch(`${BASE_URL}/trending/movie/day?language=en-US&api_key=${API_KEY}`);
     const data = await res.json();
-    return data.results
+    return data.results;
 }
 
 export const getMoviesDetails = async (id: any) => {
@@ -22,6 +22,6 @@ export const getMoviesDetails = async (id: any) => {
 export const getSimilarMovies = async (id: any) => {
     const res = await fetch(`${BASE_URL}/movie/${id}/similar?api_key=${API_KEY}`)
     const data = await res.json();
-    return data.results
+    return data.results;
 }
 
