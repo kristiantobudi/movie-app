@@ -10,14 +10,14 @@ export default async function HeroSection() {
     <>
       <div className="relative">
         <Image
-          src={"/assets/image/hero.jpg"}
+          src={"/assets/image/background.jpg"}
           width={1500}
           height={1000}
           alt="Picture of the author"
           className="bg-cover"
         />
         <div className="absolute inset-0 flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
-          <div className="container mx-auto max-w-6xl py-32 sm:py-24 lg:py-32">
+          <div className="container mx-auto max-w-7xl py-32 sm:py-24 lg:py-32">
             <div className="ma-w-4xl">
               <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                 Welcome to Watch Movie
@@ -50,7 +50,7 @@ export default async function HeroSection() {
                 </Link>
               </div>
               <div>
-                <MovieList movies={movies} limit={3} />
+                <MovieList movies={movies} limit={4} />
               </div>
             </div>
           </div>

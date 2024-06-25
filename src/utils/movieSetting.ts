@@ -25,3 +25,9 @@ export const getSimilarMovies = async (id: any) => {
     return data.results;
 }
 
+export const getPopularMovies = async () => {
+    const res = await fetch(`${BASE_URL}/3/tv/popular?api_key=${API_KEY}`)
+    const data = await res.json();
+    return data.results;
+}
+

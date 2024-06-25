@@ -14,16 +14,16 @@ export default function MovieCard({ poster_path, title }: MovieProps) {
 
   return (
     <div className="group relative">
-      <div className="min-h-80 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+      <div className="min-h-72 aspect-h-1 aspect-w-1 w-52 overflow-hidden rounded-md bg-gray-200 lg:aspect-none lg:h-72">
         <Image
           src={imageUrl}
-          className="h-full w-full object-cover object-center lg:h-80 lg:w-full flex"
+          className="h-screen w-screen object-cover object-center lg:h-72 lg:w-52 flex"
           alt={title || "Movie poster"}
           width={300}
           height={450}
         />
       </div>
-      <p className="mt-2 text-lg font-bold text-white">{title}</p>
+      <p className="w-52 mt-2 text-lg font-bold text-white">{title}</p>
     </div>
   );
 }
