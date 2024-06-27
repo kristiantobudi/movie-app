@@ -19,7 +19,7 @@ module.exports = {
       pink: "#C73659",
       black: "#151515",
       white: "#FFFFFF",
-      blackTransparent: "#323232",
+      yellow: "#FFDB00",
     },
   },
   plugins: [],

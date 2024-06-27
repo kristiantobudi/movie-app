@@ -1,12 +1,13 @@
-import styles from "./page.module.css";
 import Navbar from "../component/Navbar/navbar";
-import LatestTrailer from "@/component/LatestTrailer/lateTrailer";
+import LatestTrailer from "@/component/LatestTrailer/latestTrailer";
+import { getPopularMovies } from "@/utils/movieSetting";
 
-export default function Home() {
+export default async function Home() {
+  const moviesList = await getPopularMovies();
   return (
     <>
       <Navbar />
-      <LatestTrailer />
+      <LatestTrailer movies={moviesList} />
     </>
   );
 }
