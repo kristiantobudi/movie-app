@@ -1,14 +1,37 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { Movie } from "@/model/movieCard";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { getTrandingTv, getTrendingMovies } from "@/utils/movieSetting";
 
 interface trandingMoviesProps {
   movies: Movie[];
 }
 
-export default function TrandingMovies({ movies }: trandingMoviesProps) {
+enum MoviesOption {
+  Popular = "popular",
+  Tranding = "tranding",
+}
+
+export default function TrandingMovies() {
+  const [movies, setMovies] = useState<Movie[]>([]);
+  const [option, setOption] = useState<MoviesOption>(MoviesOption.Tranding);
+
+  useEffect(() => {
+    const fetchMovies = async () => {
+      if (option === MoviesOption.Tranding) {
+        const getTranding = await getTrendingMovies();
+        setMovies(getTranding);
+      } else if (option === MoviesOption.Popular) {
+        const getPopular = await getTrandingTv();
+        setMovies(getPopular);
+      }
+    };
+    fetchMovies();
+  }, [option]);
+
   const IMAGE_BASE_URL =
     "https://media.themoviedb.org/t/p/w300_and_h450_bestv2";
   const DEFAULT_IMAGE_PATH = "/path/to/default/movie-poster.jpg";
@@ -28,9 +51,30 @@ export default function TrandingMovies({ movies }: trandingMoviesProps) {
     <>
       <section className="bg-gray-900">
         <div className="container mx-auto px-4 py-8">
-          <h2 className="text-2xl font-bold tracking-tight text-white mb-6">
-            Tranding Movies
-          </h2>
+          <div className="text-maroon">
+            <ul className="flex flex-wrap text-sm font-medium text-center">
+              <li className="px-3 pb-3">
+                <button
+                  className="rounded-md inline-block p-4 rounded-t-lg hover:text-white hover:bg-maroon"
+                  onClick={() => {
+                    setOption(MoviesOption.Tranding);
+                  }}
+                >
+                  Tranding Movie
+                </button>
+              </li>
+              <li className="px-3 pb-3">
+                <button
+                  className="rounded-md inline-block p-4 rounded-t-lg hover:text-white hover:bg-maroon"
+                  onClick={() => {
+                    setOption(MoviesOption.Popular);
+                  }}
+                >
+                  Tranding TV
+                </button>
+              </li>
+            </ul>
+          </div>
           <div className="relative">
             <button
               onClick={() => handleScroll("left")}
@@ -46,21 +90,23 @@ export default function TrandingMovies({ movies }: trandingMoviesProps) {
               {movies.map((movie) => (
                 <div key={movie.id} className="flex-none w-48">
                   <div className="h-72 overflow-hidden rounded-md bg-gray-200 relative">
-                    <Image
-                      src={
-                        movie.poster_path
-                          ? `${IMAGE_BASE_URL}${movie.poster_path}`
-                          : DEFAULT_IMAGE_PATH
-                      }
-                      alt={movie.name || "Movie poster"}
-                      width={300}
-                      height={450}
-                      className="object-cover object-center transition duration-300 hover:scale-105"
-                      placeholder="blur"
-                      blurDataURL={`data:image/svg+xml;base64,${btoa(
-                        '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="450"><rect width="100%" height="100%" fill="#cccccc"/></svg>'
-                      )}`}
-                    />
+                    <Link href={`/movies/${movie.id}` ?? "#"}>
+                      <Image
+                        src={
+                          movie.poster_path
+                            ? `${IMAGE_BASE_URL}${movie.poster_path}`
+                            : DEFAULT_IMAGE_PATH
+                        }
+                        alt={movie.name || "Movie poster"}
+                        width={300}
+                        height={450}
+                        className="object-cover object-center transition duration-300 hover:scale-105"
+                        placeholder="blur"
+                        blurDataURL={`data:image/svg+xml;base64,${btoa(
+                          '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="450"><rect width="100%" height="100%" fill="#cccccc"/></svg>'
+                        )}`}
+                      />
+                    </Link>
                     {movie.vote_average && (
                       <div className="absolute bottom-2 right-2 bg-black bg-opacity-75 text-yellow px-2 py-1 rounded-md text-sm">
                         ★ {movie.vote_average.toFixed(1)}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Source_Code_Pro } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/component/Navbar/navbar";
 
 const sourceCodePro = Source_Code_Pro({ subsets: ["latin"] });
 
@@ -16,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={sourceCodePro.className}>{children}</body>
+      <body className={sourceCodePro.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

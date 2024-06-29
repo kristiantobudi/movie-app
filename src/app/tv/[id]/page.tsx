@@ -145,10 +145,7 @@ function SimilarContentSection({
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
         {similarContent.slice(0, 4).map((item) => (
-          <div
-            key={item.id}
-            className="bg-gray-800 rounded-lg overflow-hidden transition duration-300 hover:scale-105"
-          >
+          <div key={item.id} className="bg-gray-800 rounded-lg overflow-hidden">
             <Image
               src={IMAGE_BASE_URL + item.poster_path}
               alt={item.title || item.name || ""}
