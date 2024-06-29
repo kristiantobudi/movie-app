@@ -8,18 +8,17 @@ export default async function HeroSection() {
   const movies = await getTrendingMovies();
   return (
     <>
-      <div className="relative">
+      <div className="relative min-h-screen">
         <Image
-          src={"/assets/image/hero.jpg"}
+          src={"/assets/image/background.jpg"}
           width={1500}
           height={1000}
           alt="Picture of the author"
-          className="bg-cover"
         />
-        <div className="absolute inset-0 flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
-          <div className="container mx-auto max-w-6xl py-32 sm:py-24 lg:py-32">
-            <div className="ma-w-4xl">
-              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+        <div className="absolute inset-1 flex items-center justify-center bg-gray-900 bg-opacity-50 py-28 px-4">
+          <div className="flex container mx-auto max-w-7xl py-28 sm:py-24 lg:py-32 xl:py-40">
+            <div className="max-w-7xl min-w-4xl">
+              <h1 className="flex mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">
                 Welcome to Watch Movie
               </h1>
               <p className="mt-6 text-lg leading-8 text-white font-bold">
@@ -48,9 +47,6 @@ export default async function HeroSection() {
                 >
                   List Film
                 </Link>
-              </div>
-              <div>
-                <MovieList movies={movies} limit={3} />
               </div>
             </div>
           </div>

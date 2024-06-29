@@ -1,11 +1,12 @@
-import styles from "./page.module.css";
 import Navbar from "../component/Navbar/navbar";
+import HeroSection from "@/component/HeroSection/heroSection";
+import LatestTrailer from "@/component/LatestTrailer/latestTrailer";
 
-export default function Home() {
+export default async function Home() {
   return (
     <>
-      <Navbar />
-      <h1>Hello World</h1>
+      <HeroSection />
+      <LatestTrailer />
     </>
   );
 }

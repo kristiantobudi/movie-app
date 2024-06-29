@@ -12,8 +12,8 @@
 
 html,
 body {
+  position: relative;
   max-width: 100vw;
-  overflow-x: hidden;
   background-color: #151515;
 }
 
@@ -27,4 +27,13 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
