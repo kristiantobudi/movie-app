@@ -10,6 +10,7 @@ import {
 } from "@/utils/movieSetting";
 import Loading from "../../../component/loading/loading";
 
+
 interface ContentDetails {
   id: number;
   title?: string;
@@ -74,6 +75,35 @@ export default function DetailPage({ params }: DetailPageProps) {
   if (isLoading) return <Loading />;
   if (error) return <div className="text-center text-maroon p-4">{error}</div>;
   if (!details) return <div className="text-center p-4">No data available</div>;
+
+  const isTV = params.mediaType === "tv";
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        setIsLoading(true);
+        const contentDetails = isTV
+          ? await getTvDetails(params.id)
+          : await getMoviesDetails(params.id);
+        const similarContentData = isTV
+          ? await getSimilarTv(params.id)
+          : await getSimilarMovies(params.id);
+
+        setDetails(contentDetails);
+        setSimilarContent(similarContentData);
+      } catch (err) {
+        setError("Failed to fetch data. Please try again later.");
+      } finally {
+        setIsLoading(false);
+      }
+    }
+
+    fetchData();
+  }, [isTV, params.id]);
+
+  if (isLoading) return <div>Loading...</div>;
+  if (error) return <div>{error}</div>;
+  if (!details) return <div>No data available</div>;
 
   return (
     <div
