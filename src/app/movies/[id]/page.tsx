@@ -8,6 +8,8 @@ import {
   getTvDetails,
   getSimilarTv,
 } from "@/utils/movieSetting";
+import Loading from "../../../component/loading/loading";
+
 
 interface ContentDetails {
   id: number;
@@ -70,6 +72,35 @@ export default function DetailPage({ params }: DetailPageProps) {
     fetchData();
   }, [isTV, params.id]);
 
+  if (isLoading) return <Loading />;
+  if (error) return <div className="text-center text-maroon p-4">{error}</div>;
+  if (!details) return <div className="text-center p-4">No data available</div>;
+
+  const isTV = params.mediaType === "tv";
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        setIsLoading(true);
+        const contentDetails = isTV
+          ? await getTvDetails(params.id)
+          : await getMoviesDetails(params.id);
+        const similarContentData = isTV
+          ? await getSimilarTv(params.id)
+          : await getSimilarMovies(params.id);
+
+        setDetails(contentDetails);
+        setSimilarContent(similarContentData);
+      } catch (err) {
+        setError("Failed to fetch data. Please try again later.");
+      } finally {
+        setIsLoading(false);
+      }
+    }
+
+    fetchData();
+  }, [isTV, params.id]);
+
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;
   if (!details) return <div>No data available</div>;
@@ -81,21 +112,22 @@ export default function DetailPage({ params }: DetailPageProps) {
         backgroundImage: `url(${IMAGE_BASE_URL + details.backdrop_path})`,
       }}
     >
-      <div className="absolute inset-0 bg-black bg-opacity-70">
-        <div className="relative z-10 container mx-auto px-4 py-16">
+      <div className="absolute inset-0 bg-black bg-opacity-70 overflow-y-auto">
+        <div className="relative z-10 container mx-auto px-4 py-16 min-h-center">
           <div className="flex flex-col md:flex-row items-start">
-            <div className="md:w-1/3 mb-8 md:mb-0 transition duration-300 hover:scale-105">
-              <Image
-                src={IMAGE_BASE_URL + details.poster_path}
-                alt={details.title || details.name || ""}
-                width={300}
-                height={450}
-                className="rounded-lg shadow-lg"
-                layout="responsive"
-              />
+            <div className="w-full md:w-1/3 mb-8 md:mb-0">
+              <div className="aspect-w-2 aspect-h-3 transition duration-300 hover:scale-105">
+                <Image
+                  src={IMAGE_BASE_URL + details.poster_path}
+                  alt={details.title || details.name || ""}
+                  width={300}
+                  height={450}
+                  className="rounded-lg shadow-lg"
+                />
+              </div>
             </div>
-            <div className="md:w-2/3 md:pl-8 text-white">
-              <h1 className="text-4xl font-bold mb-4">
+            <div className="w-full md:w-fit mb-8 md:mb-0">
+              <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">
                 {details.title || details.name}
               </h1>
               <div className="flex flex-wrap mb-4">
@@ -110,13 +142,15 @@ export default function DetailPage({ params }: DetailPageProps) {
                 </span>
               </div>
               <div className="mb-6">
-                <div className="text-xl font-bold">
+                <div className="text-xl font-bold text-white">
                   Rating: ★ {details.vote_average.toFixed(1)}
                 </div>
               </div>
               <div className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">Overview</h2>
-                <p>{details.overview}</p>
+                <h2 className="text-2xl font-bold mb-4 text-white">Overview</h2>
+                <p className="text-sm md:text-base text-white">
+                  {details.overview}
+                </p>
               </div>
 
               <SimilarContentSection
@@ -140,25 +174,27 @@ function SimilarContentSection({
 }) {
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-4">
+      <h2 className="text-xl md:text-2xl font-bold mb-4 text-white">
         Similar {isTV ? "TV Shows" : "Movies"}
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
         {similarContent.slice(0, 4).map((item) => (
           <div
             key={item.id}
-            className="bg-gray-800 rounded-lg overflow-hidden transition duration-300 hover:scale-105"
+            className="bg-maroon rounded-lg overflow-hidden transition duration-300 hover:scale-105"
           >
-            <Image
-              src={IMAGE_BASE_URL + item.poster_path}
-              alt={item.title || item.name || ""}
-              width={150}
-              height={225}
-              className="w-full object-cover"
-              layout="responsive"
-            />
+            <div className="aspect-w-2 aspect-h-3">
+              <Image
+                src={IMAGE_BASE_URL + item.poster_path}
+                alt={item.title || item.name || ""}
+                width={150}
+                height={225}
+                className="w-full object-cover"
+                layout="responsive"
+              />
+            </div>
             <div className="p-2">
-              <h3 className="text-sm font-semibold truncate">
+              <h3 className="text-xs md:text-sm font-semibold truncate text-white">
                 {item.title || item.name}
               </h3>
             </div>
