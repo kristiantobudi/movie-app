@@ -21,6 +21,10 @@ module.exports = {
       white: "#FFFFFF",
       yellow: "#FFDB00",
     },
+    aspectRatio: {
+      3: "3/1",
+      2: "2/1",
+    },
   },
   plugins: [],
 };
